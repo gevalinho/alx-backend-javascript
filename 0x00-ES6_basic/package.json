@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "0-constants.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/babel-node",
-    "lint": "./node_modules/.bin/eslint"
+    "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+    "build": "webpack --config=Scripts/config/webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -157,5 +157,8 @@
     "which-typed-array": "^1.1.11",
     "yallist": "^3.1.1"
   },
-  "description": ""
+  "description": "1. ECMAScript 6 - ECMAScript 2015. 2. Node.js and NPM",
+  "directories": {
+    "test": "test"
+  }
 }
