@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "0-constants.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/babel-node",
+    "lint": "./node_modules/.bin/eslint"
   },
   "keywords": [],
   "author": "",
